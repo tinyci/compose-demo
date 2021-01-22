@@ -11,4 +11,4 @@ If you see this you've succeeded:
 
 From here, you can add your repository and configure it. Check out the [Repository Config](https://tinyci.org/docs/repository_config) documentation for more information.
 
-When you're done: `docker-compose down`. This will tear down all containers, but some files will be left over. They are dot-files n the dir, you can spot them easily with `ls -a`. Remember, some of them will be owned by `root` so you will need `sudo` to remove them.
+When you're done: `docker-compose down`. This will tear down all containers, but some files will be left over. They are dot-files in the directory, you can spot them easily with `ls -a`. Remember, some of them will be owned by `root` so you will need `sudo` to remove them.
