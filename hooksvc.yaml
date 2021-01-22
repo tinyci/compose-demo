@@ -1,0 +1,4 @@
+---
+queue_service: "tinyci:6001"
+data_service: "tinyci:6000"
+log_service: "tinyci:6005"

@@ -1,0 +1,21 @@
+localhost {
+  bind 0.0.0.0
+
+  log {
+    output stdout
+    format console
+  }
+
+  route /hook {
+    reverse_proxy hooksvc:2020
+  }
+
+  route /uisvc/* {
+    uri strip_prefix /uisvc
+    reverse_proxy tinyci:6010
+  }
+
+  route /* {
+    reverse_proxy react:3000
+  }
+}
