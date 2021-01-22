@@ -5,3 +5,7 @@ Steps:
 - `docker-compose up -d`. You may actually have to do this twice due to a bug in compose or docker, no idea. Repeat until all the containers have booted, although `migrator` only needs to boot once and quit.
 - Visit https://localhost -- you should be presented with a login page.
 - From here, you can add your repository and configure it. Check out the [Repository Config](https://tinyci.org/docs/repository_config) documentation for more information.
+
+If you see this you've succeeded:
+
+![splash screen](splash.png)
